@@ -7,7 +7,7 @@ import g4f
 
 
 intents = discord.Intents.default()
-intents.message_content = True  # Включаем обработку контента сообщений
+intents.message_content = True
 
 bot = commands.Bot(command_prefix=PREFIX, intents=intents)
 
